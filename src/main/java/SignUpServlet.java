@@ -1,4 +1,4 @@
-
+//Babita Gurung
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -30,7 +30,7 @@ public class SignUpServlet extends HttpServlet {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// Step 2: Creating connection
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "BrucciDirt7552");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "Manandhar@12345");
 			if (conn != null) {
 				System.out.println("Connection establised successfully with database.");
 			}
